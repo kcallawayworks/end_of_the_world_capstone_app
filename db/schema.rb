@@ -56,7 +56,6 @@ ActiveRecord::Schema.define(version: 2019_03_28_045543) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "product_id"
-    t.index ["product_id"], name: "index_images_on_product_id"
   end
 
   create_table "messages", force: :cascade do |t|
